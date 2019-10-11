@@ -48,6 +48,7 @@ section .row:last-child {
 }
 .navbar .scrolled {
   background: #dec0de;
+  transition: background 500ms;
 }
 
 @media screen and (max-width: 1200px) {
