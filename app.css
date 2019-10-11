@@ -22,17 +22,37 @@ h1 {
   font-weight: 100; 
 }
 
+h2 {
+  color: #ea1c2c;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+p {
+  color: #f498B8;
+  font-size: 1.125rem;
+  font-weight: 100;
+  line-height: 2;
+}
+
 .title {
   color: #ea1c2c;
 }
 
 .row {
-  margin-bottom: 4vh;
+  margin-bottom: 100px;
+}
+
+section .row:last-child {
+  margin-bottom: 0;
+}
+.navbar .scrolled {
+  background: #dec0de;
 }
 
 @media screen and (max-width: 1200px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 100; 
   }
 }
